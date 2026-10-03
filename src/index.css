@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(35px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes fadeInModal {
+  0% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeInModal 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Subterranean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #040c09;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b4d3e;
+  border-radius: 4px;
+  border: 1px solid #286e59;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b7863;
+}

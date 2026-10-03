@@ -1,0 +1,6 @@
+{
+  "name": "螢光幽井 - GLOW WELL",
+  "description": "《動物井》（ANIMAL WELL）風格的網頁微光探索遊戲，具備泡泡杖跳躍、無縫翻頁地圖、動態光影與 CRT 復古濾鏡。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
